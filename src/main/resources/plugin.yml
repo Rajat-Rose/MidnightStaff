@@ -1,0 +1,27 @@
+name: MidnightStaff
+version: 1.0
+main: com.midnightsmp.midnightstaff.MidnightStaff
+api-version: '1.21'
+description: Staff ranks chat prefix and dedicated Staff Chat channel
+commands:
+  sc:
+    description: Send a private message in Staff Chat
+    usage: /sc <message>
+    permission: staff.chat
+    aliases: [staffchat]
+permissions:
+  staff.chat:
+    description: Access to view and send messages in staff chat
+    default: op
+  staff.owner:
+    description: Owner rank prefix
+    default: op
+  staff.admin:
+    description: Admin rank prefix
+    default: op
+  staff.mod:
+    description: Moderator rank prefix
+    default: op
+  staff.helper:
+    description: Helper rank prefix
+    default: op
